@@ -1,0 +1,88 @@
+@charset "UTF-8";
+input, select { border: none; appearance: none; -moz-appearance: none; -webkit-appearance: none; background-color: transparent; font-family: "微软雅黑"; }
+input::-webkit-input-placeholder, select::-webkit-input-placeholder { color: #999; font-size: inherit; }
+input:-moz-placeholder, select:-moz-placeholder { color: #999; font-size: inherit; }
+input::-moz-placeholder, select::-moz-placeholder { color: #999; font-size: inherit; }
+input:-ms-input-placeholder, select:-ms-input-placeholder { color: #999; font-size: inherit; }
+
+input { text-indent: 1em; }
+
+input[type="submit"] { text-indent: 0; cursor: pointer; border: none; appearance: none; }
+
+body, div, ul, li, i { box-sizing: border-box; }
+
+.space-between, .header, .footer .cosult { display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between; }
+
+.center, .nav, .wechat { display: flex; align-items: center; flex-wrap: wrap; justify-content: center; }
+
+.wrap { width: 10rem; margin: 0 auto; font-size: 0.3733333333rem; font-family: "Microsoft Yahei"; }
+.wrap p { line-height: 0.64rem; }
+
+.header { display: none; padding: 0 0.4rem; height: 1.2rem; }
+.header .h1 { width: 2.0666666667rem; height: 0.6rem; }
+.header .h1 img { width: 100%; height: 100%; }
+.header .tel { padding-left: 0.7066666667rem; background: url(../images/tel.png) no-repeat left center; background-size: 0.5333333333rem 0.5333333333rem; font-size: 0.24rem; text-align: center; }
+.header .num { font-size: 0.32rem; font-weight: bold; }
+.header .text { letter-spacing: 0.16rem; }
+
+.nav { display: none; height: 0.9866666667rem; background-color: #f9f9f9; }
+.nav ul { display: flex; }
+.nav li { padding: 0 0.2666666667rem; height: 0.3733333333rem; line-height: 0.3733333333rem; border-right: 1px solid #dddddd; }
+.nav li:last-child { border-right: 0; }
+
+.banner { display: none; }
+.banner a { display: block; height: 5.5733333333rem; background-size: 100% 100%; }
+
+.title { display: flex; align-items: center; width: 100%; padding: 0 0.4rem; height: 1.84rem; line-height: 0.8rem; font-size: 0.5333333333rem; font-weight: bold; color: #ffffff; }
+
+.choice { padding: 1.8133333333rem 0.4rem 0.32rem; background-color: #a296d6; }
+.choice .c-cont { position: relative; padding: 0 0.3333333333rem 0.4rem; background-color: #ffffff; border-radius: 0.32rem; border: solid 1px #000000; }
+.choice .title { position: absolute; top: -0.9866666667rem; left: -1px; z-index: 10; background: url(../images/bg_1.png) no-repeat; background-size: 100% 100%; }
+.choice ul { padding-top: 1.6rem; display: flex; flex-wrap: wrap; text-align: center; }
+.choice ul li { width: 50%; line-height: 0.64rem; padding-top: 1.2rem; margin-bottom: 0.6666666667rem; font-size: 0.4rem; color: #000000; background: url(../images/icon_1.png) no-repeat top center; background-size: 0.88rem 0.88rem; }
+.choice ul li:nth-of-type(2) { background: url(../images/icon_2.png) no-repeat top center; background-size: 0.7733333333rem 0.88rem; }
+.choice ul li:nth-of-type(3) { background: url(../images/icon_3.png) no-repeat top center; background-size: 0.9066666667rem 0.88rem; }
+.choice ul li:nth-of-type(4) { background: url(../images/icon_4.png) no-repeat top center; background-size: 0.72rem 0.8266666667rem; }
+.choice .video { display: block; margin-bottom: 0.2666666667rem; }
+.choice p { text-align: center; }
+.choice p span { font-weight: bold; color: #8070c9; }
+.choice .hint { padding: 1.0666666667rem 0 0.1333333333rem; line-height: 0.64rem; font-size: 0.32rem; color: #000000; text-align: center; }
+
+.btn { height: 1.0666666667rem; line-height: 1.0666666667rem; font-size: 0.4rem; font-weight: bold; background-color: #f9d565; border-radius: 0.5333333333rem; border: solid 1px #151515; color: #000; }
+
+.plan { padding: 0.96rem 0.4rem 0.64rem; background: url(../images/plan_1.png) no-repeat; background-size: 100% 100%; color: #000000; }
+.plan .title { padding-left: 0.56rem; color: #000000; }
+.plan p { line-height: 0.48rem; padding: 0.2666666667rem 0; font-size: 0.3466666667rem; text-align: center; }
+.plan .sign-in { padding: 0 0.4rem 0.24rem; }
+.plan input { width: 100%; height: 1.0666666667rem; line-height: 1.0666666667rem; margin-bottom: 0.2666666667rem; border-radius: 0.1333333333rem; border: solid 1px #151515; }
+.plan input[type="submit"] { background-color: #f9d565; border-radius: 0.5333333333rem; }
+
+.btn-wrap { display: flex; justify-content: center; padding: 0.64rem 0; }
+.btn-wrap .btn { padding: 0 0.4666666667rem; }
+
+.plan_2 { padding: 0.64rem 0.4rem; background: url(../images/plan_2.png) no-repeat #f3c9ca; background-size: 100% 100%; }
+
+.score { padding: 0.64rem 0.4rem 0; background: #a296d6; }
+.score img { padding-top: 0.2133333333rem; margin-bottom: 0.64rem; }
+
+.plan_3 { padding: 0.64rem 0.4rem; background: url(../images/plan_3.png) no-repeat #f3c9ca; background-size: 100% 100%; }
+
+.dorm { padding: 0.6666666667rem 0.4rem 0.5333333333rem; background: url(../images/bg_2.png) no-repeat #a296d6; }
+
+.plan_4 { padding: 0.64rem 0.4rem; background: url(../images/plan_4.png) no-repeat #f3c9ca; background-size: 100% 100%; }
+.plan_4 .sign-in { padding: 0.64rem 0.4rem 0.24rem; }
+
+.help { height: 0.6666666667rem; line-height: 0.6666666667rem; font-size: 0.32rem; background-color: #151515; text-align: center; font-weight: bold; color: #ffffff; }
+
+.wechat { padding: 0.3066666667rem 0 0.5066666667rem; }
+.wechat .hand { width: 1.1066666667rem; height: 0.8533333333rem; background: url(../images/icon_5.png); background-size: 100% 100%; }
+.wechat .text { width: 2.6666666667rem; line-height: 0.48rem; margin: 0 0.1733333333rem 0 0.08rem; font-size: 0.4rem; font-weight: bold; color: #151515; }
+.wechat .img { width: 1.3333333333rem; height: 1.32rem; }
+
+.footer { position: fixed; bottom: 0; width: 10rem; }
+.footer .cosult a { width: 50%; height: 1.3333333333rem; line-height: 1.3333333333rem; font-size: 0.4rem; font-weight: bold; text-align: center; }
+.footer .cosult .teacher { background-color: #7d70b9; }
+.footer .cosult .tel { background-color: #f4ca49; }
+.footer .data { position: absolute; top: -0.7466666667rem; left: 0; right: 0; margin: auto; width: 2.08rem; height: 2.08rem; border-radius: 50%; background-color: #f3c9ca; box-shadow: 0px 0px 41px 2px rgba(125, 112, 185, 0.3); }
+
+/*# sourceMappingURL=index.css.map */
